@@ -60,7 +60,7 @@ const AddTripInput = () => {
       adminAddTrip.push(newTrip);
       localStorage.setItem("adminAddTrip", JSON.stringify(adminAddTrip));
     }
-    navigate("/incomingTrip");
+    navigate("/trip");
 
     // reset value from input
   };

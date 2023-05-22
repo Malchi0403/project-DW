@@ -27,7 +27,7 @@ function Login({ show, handleCloseLogin }) {
           isAdmin: true,
         }),
       );
-      navigate("/Admin");
+      navigate("/admin");
       window.location.reload();
     } else {
       alert("login failed !");

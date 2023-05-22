@@ -80,7 +80,7 @@ function NavbarMenu() {
                 navbarScroll
               >
                 <NavDropdown title={<img src={User} alt="" />}>
-                  <NavDropdown.Item href="/IncomingTrip">trip</NavDropdown.Item>
+                  <NavDropdown.Item href="/trip">trip</NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item onClick={handleLogout}>
                     Logout
