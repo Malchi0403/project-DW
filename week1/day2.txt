@@ -1,0 +1,14 @@
+Style in ReactJS
+-Inline styling = {{color: 'red'}} (untuk spesifik)
+-css modular =
+-Global CSS = 
+
+component + props(name age) dapat dari state
+
+REACT ROUTER
+react router dom = untuk routing dan navigasi
+https://reactrouter.com/en/main
+
+PrivateRoute = untuk memberikan akses private dan memblokir akses lain .
+
+props type = untuk autentikasi didalam proprerti tersebut ada tipe data apa saja

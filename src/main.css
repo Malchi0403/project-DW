@@ -1,0 +1,233 @@
+body {
+    background-color: #e5e5e5;
+}
+
+.backgroundImage {
+    background-image: url('/src/assets/images/Background.png');
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 547px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.Content {
+    position: absolute;
+    top: 131px;
+    left: 180px;
+}
+
+.Content h1 {
+    font-family: 'Product Sans';
+    font-size: 64px;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.OtherContent {
+    position: absolute;
+    width: 100%;
+    top: 340px;
+    left: 180px;
+    padding: 0;
+    
+}
+
+.searchButton{
+    width: 136px;
+    background-color: #FFAF00;
+    border: none;
+    
+    
+}
+
+.Cards {
+    width: 250px;
+    height: 350px;
+    border-radius: 5px;
+    font-family: 'Avenir';
+ 
+}
+
+.cardsTitle {
+    font-weight: 800;
+    font-size: 24px;
+    color: #000;
+}
+
+.cardText {
+    font-weight: 400;
+    font-size: 18px;
+    color: #878787;
+}
+
+.positionGroup {
+    position: relative;
+   top: 840px;
+   
+}
+
+.styleImage {
+    width: 328px;
+    height: 241px;
+    margin: 11px auto 0;
+}
+
+.footer {
+    background-color: #FFAF00;
+    position: absolute;
+    top: 1854px;
+    margin-top: 60px;
+    width: 100%;
+    z-index: -1;
+   
+}
+
+.imageleaf {
+    position: absolute;
+    right: 1px;
+    top: 1829px;
+}
+
+
+/* LOGIN REGISTER */
+.TextLogin {
+    font-family: 'Product sans';
+    font-weight: 700;
+   
+}
+
+.textLabelLogin {
+    font-size: 24px;
+}
+
+.Login {
+    margin: 0 2.5rem 20px;
+    background-color: #FFAF00;
+    border: none;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    size: 24px;
+}
+.Reg {
+    margin: -13px 3rem 30px;
+    background-color: #FFAF00;
+    border: none;
+    border-radius: 0;
+    letter-spacing: 1.5px;
+    size: 24px;
+}
+.blurText {
+    font-family: 'Avenir';
+    color: #b1b1b1;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.otherblurtext {
+    font-weight: 900;
+}
+
+.stylePalm {
+    position: absolute;
+}
+
+.styleHibiscus {
+    right: 0.3px;
+    top: 0.1px;
+    overflow-x: hidden;
+    border-top-right-radius: 5px;
+}
+
+.TextRegister {
+    font-family: 'Product sans';
+    font-weight: 700;
+}
+
+/* END LOGIN REGISTER STYLE */
+
+/* NAVBAR BACKGROUND */
+
+.backgroundNav {
+    background-image: url('./assets/images/Background.png');
+    background-size: cover;    
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;    
+}
+
+.styleDetail {
+    margin: 120px 211px 20px;
+    font-family: 'Avenir';
+}
+
+.CarouselImg {
+   width: 100%;
+   height: 100%;
+    object-fit: cover;
+    object-position: 50% 55%;
+    border-radius: 20px;
+}
+
+
+.CarouselImgContent {
+    margin-top: 6px;
+    width: 320px;
+    height: 167.64px;
+    border-radius: 5px;
+    padding: 0 !important;
+}
+
+.modal-dialog {
+    max-width: 800px;
+    object-fit: contain;
+  }
+
+.HorizontalLine {
+    border-top: 4px solid #b7b7b7;
+    width: 100%;
+}
+
+.bookButton {
+    background-color: #FFAF00;
+    color: #ffffff;
+    padding: 12px 53px;
+    float: right;
+    border: none;
+    border-radius: 5px;
+}
+
+.styleProfile {
+    font-family: 'Avenir';
+}
+.colorStyleProfile {
+    color: #8A8C90;
+}
+
+.buttonProfile { 
+    padding: 13px 50px;
+    border: none;
+    background-color: #FFAF00;
+    font-family: 'Avenir';
+    font-size: 18px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.historyTrip {
+    margin-top: 88px;
+    margin-bottom: 48px;
+}
+
+.DetailHistoryTrip {
+   position: relative;
+   left: 38px;
+   
+   
+}

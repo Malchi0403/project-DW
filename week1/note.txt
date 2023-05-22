@@ -1,0 +1,47 @@
+Ekspresi Reguler
+
+/\\D/g: Ekspresi reguler ini mencocokkan karakter-karakter yang bukan digit (non-digit). Karakter non-digit termasuk spasi, huruf, tanda baca, atau simbol lainnya. Dalam ekspresi ini, \\D mengartikan "bukan digit" dan opsi g berarti pencocokan dilakukan secara global (global matching), yaitu mencocokkan semua karakter non-digit dalam sebuah string.
+
+Contoh: /\\D/g akan cocok dengan karakter-karakter non-digit dalam sebuah string. Misalnya, "Hello 123!" akan menghasilkan hasil pencocokan berupa karakter "H", "e", "l", "l", "o", " ", "!", karena mereka semua bukan digit.
+
+/\\d/: Mencocokkan karakter digit (0-9).
+Contoh: /\\d/ akan cocok dengan "1", "2", "3", dst.
+
+/\\w/: Mencocokkan karakter alfanumerik (a-z, A-Z, 0-9) termasuk garis bawah ().
+Contoh: /\\w/ akan cocok dengan "a", "B", "7", "", dst.
+
+/\\s/: Mencocokkan karakter spasi putih (spasi, tab, newline).
+Contoh: /\\s/ akan cocok dengan spasi, tab, atau newline.
+
+/[a-z]/: Mencocokkan karakter huruf kecil a-z.
+Contoh: /[a-z]/ akan cocok dengan huruf kecil apapun.
+
+/[A-Z]/: Mencocokkan karakter huruf besar A-Z.
+Contoh: /[A-Z]/ akan cocok dengan huruf besar apapun.
+
+/^\\d{2,4}$/: Mencocokkan string yang terdiri dari 2 hingga 4 digit.
+Contoh: /^\\d{2,4}$/ akan cocok dengan "12", "123", atau "1234".
+
+/^[a-zA-Z]+$/: Mencocokkan string yang terdiri dari satu atau lebih huruf alfabet.
+Contoh: /^[a-zA-Z]+$/ akan cocok dengan "abc", "XYZ", atau "Hello".
+
+/\\bword\\b/: Mencocokkan kata "word" secara penuh (whole word).
+Contoh: /\\bword\\b/ akan cocok dengan "word" tetapi tidak cocok dengan "words" atau "keyword".
+
+method yang dapat menggunakan ekspresi reguler 
+
+test(): Metode ini digunakan untuk menguji apakah ada kecocokan antara pola ekspresi reguler dengan sebuah string. Metode ini mengembalikan nilai true jika ada kecocokan, dan false jika tidak.
+
+Contoh: /\\d/.test("Hello 123!") akan mengembalikan nilai true, karena ada kecocokan dengan digit dalam string.
+
+match(): Metode ini digunakan untuk mencari kecocokan antara pola ekspresi reguler dengan sebuah string. Metode ini mengembalikan array berisi semua kecocokan yang ditemukan atau null jika tidak ada kecocokan.
+
+Contoh: "Hello 123!".match(/\\d/g) akan mengembalikan array ["1", "2", "3"], karena mencocokkan dan mengambil semua digit dalam string.
+
+search(): Metode ini digunakan untuk mencari kecocokan antara pola ekspresi reguler dengan sebuah string. Metode ini mengembalikan indeks pertama kecocokan yang ditemukan atau -1 jika tidak ada kecocokan.
+
+Contoh: "Hello 123!".search(/\\d/) akan mengembalikan nilai 6, karena digit pertama ditemukan pada indeks ke-6.
+
+split(): Metode ini digunakan untuk memisahkan sebuah string menjadi array substring berdasarkan kecocokan dengan pola ekspresi reguler.
+
+Contoh: "Hello 123 World".split(/\\d+/) akan menghasilkan array ["Hello ", " World"], karena string dipisahkan berdasarkan kecocokan dengan digit.
